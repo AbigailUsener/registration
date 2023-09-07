@@ -11,12 +11,12 @@
         <table table-size="600" cellspacing="0" cellpadding="10" border="3" bgcolor="white" align="center" width="900" hight="500">
             <tr>
                 <td>
-                    <table class="bordered-table" border="4" align="center" >
+                    <table class="bordered-table" border="4" align="center" cellpadding="10">
                         <thead>
                             <th scope="col" colspan="2" style="color:red; font-size:50px" bgcolor="yellow">Registration Form</th>
                         </thead>
                         
-                        <tr bgcolor="sky blue">
+                        <tr bgcolor="sky blue" cellpadding="10">
                             <td>Enter Name</td>
                             <td><input type="text" name="name" size="15" maxlength="30"></td>
                         <tr bgcolor="sky blue">
@@ -44,7 +44,15 @@
                             <td><input type="file" name="picture">
                             <input type="submit" value="upload"></td>
                         </tr>
-                        <tfoot><td bgcolor="sky blue" colspan="2" align="center"><input type="submit" class="button" value="Submit"><input type="submit" class="button" value="Click Me"><input type="submit" class="button" value="Reset"></td></tfoot>
+                        <tr bgcolor="#48CDFF">
+                            <tfoot>
+                            <td colspan="2" bgcolor="#48CDFF">
+                            <button type="button" style="height: 30pt;width: 100pt;" >Click Me</button>
+                            <button type="button" style="height: 30pt;width: 100pt;" >Reset</button>
+                            <button type="button" style="height: 30pt;width: 100pt;" >Submit Form</button>
+                            </td>
+                            </tfoot>
+                        </tr>
                     </table>
                 </td>
             </tr>
